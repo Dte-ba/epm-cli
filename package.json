@@ -2,13 +2,15 @@
   "name": "epm-cli",
   "version": "0.0.1",
   "description": "Epm's command line",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/Dte-ba/epm-cli.git"
+  },
+  "bin": {
+    "epm": "bin/epm"
   },
   "keywords": [
     "epm",
@@ -22,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/Dte-ba/epm-cli/issues"
   },
-  "homepage": "https://github.com/Dte-ba/epm-cli"
+  "homepage": "https://github.com/Dte-ba/epm-cli",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "npmlog": "0.0.6"
+  }
 }
