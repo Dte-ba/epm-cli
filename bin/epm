@@ -15,7 +15,6 @@
   program
     .usage("[options] <command> [<args>]")
     .version(cli.version)
-    .option("--engine <name>", "Define the package engine", "sep")
     .option("--verbose", "Verbose mode")
 
 
@@ -49,6 +48,7 @@
   var showCmd = program.command("show")
   showCmd
     .usage("<command> [<args>]")
+    .option("--verbose", "Verbose mode")
     .description("gets repository data")
     .action(function(){
       if (arguments.length === 1) { 
@@ -89,6 +89,7 @@
 
   remoteCmd
     .usage("<command> [<args>]")
+    .option("--verbose", "Verbose mode")
     .description("manage the remote repositories")
     .action(function(){
       if (arguments.length === 1) { 

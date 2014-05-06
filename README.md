@@ -28,7 +28,6 @@ Options:
 
   -h, --help       output usage information
   -V, --version    output the version number
-  --engine <name>  Define the package engine
   --verbose        Verbose mode
 ```
 
