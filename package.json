@@ -1,6 +1,6 @@
 {
   "name": "epm-cli",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "Epm's command line",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
